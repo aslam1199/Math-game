@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Math Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>Unlock the Secret</h1>
+    <p id="message">Solve all 5 puzzles to reveal a surprise!</p>
+    <div id="game">
+      <p id="question">Question 1: 100 + 43 = ?</p>
+      <input type="number" id="answer" placeholder="Your Answer">
+      <button onclick="checkAnswer()">Submit</button>
+    </div>
+    <div id="final-message" class="hidden">
+      <h2>🎉 Surprise! 🎉</h2>
+      <h3>You was proposed me 5 Times</h3>
+      <p id="secret-message">Okey (143 2) I Love You to ❤️</p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
